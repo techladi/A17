@@ -16,7 +16,7 @@ global.autoreadgc = process.env.AUTOREADGC || true;
 
 
 // Auth information
-global.pairNumber = "77527720";                         // Add your paining number with country code example "916297175943"; 
+global.pairNumber = "25377527720";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
@@ -30,9 +30,9 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
 
 
 // Owner information
-global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["77527720"];
-global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["77527720"];
-global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["77527720"];
+global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["25377527720"];
+global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["25377527720"];
+global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["25377527720"];
 global.OwnerName = process.env.OWNER_NAME || "SébastienYT";
 global.BotName = process.env.BOT_NAME || "SébastienJR";
 global.packname = process.env.PACK_NAME || "A17 Bot";
@@ -81,7 +81,7 @@ global.ntilink = []
 // Messages
 global.mess = {
   jobdone: 'Here you go...',
-  useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
+  useradmin: 'tu te crois malin hien?, only *Group Admins* can use this command *Baka*!',
   botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
   botowner: 'Only my *Owner* can use this command, Baka!',
   grouponly: 'This command is only made for *Groups*, Baka!',
